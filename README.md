@@ -64,3 +64,4 @@ cd frontend
 npm install
 npm start
 ```
+<div align="center"> <h3>Built with ❤️ by Akshat Pandey</h3> <a href="https://github.com/Akpan123">GitHub</a> | <a href="https://linkedin.com/in/akshat-pandey-7397b7258/">LinkedIn</a> </div>
