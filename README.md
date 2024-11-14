@@ -2,12 +2,10 @@
 
   <div align="center"> <br />   <img src= "https://github.com/Akpan123/project_reachify/blob/main/frontend/public/SITE%20IMAGE.png" alt="Project Banner"> <br /> <div> <img src="https://img.shields.io/badge/-React-black?style=for-the-badge&logoColor=white&logo=react&color=61DAFB" alt="React.js" /> <img src="https://img.shields.io/badge/-FastAPI-black?style=for-the-badge&logoColor=white&logo=fastapi&color=009688" alt="FastAPI" /> <img src="https://img.shields.io/badge/-MongoDB-black?style=for-the-badge&logoColor=white&logo=mongodb&color=47A248" alt="MongoDB" /> <img src="https://img.shields.io/badge/-Docker-black?style=for-the-badge&logoColor=white&logo=docker&color=2496ED" alt="Docker" /> </div> <h3 align="center">To-Do App: A Full-Stack Task Management System</h3> </div>
 
-<hr>
 
 # 📋 Introduction #
 The To-Do App is a full-stack application designed for task management, demonstrating the integration of a React frontend, FastAPI backend, and MongoDB database perform CRUD Operation as said to be done. Built with modular architecture, this project features a clean user interface, robust backend APIs, and Dockerized deployment.
 
-<hr>
 
 # ⚙️ Tech Stack #
 
@@ -17,9 +15,6 @@ Database: MongoDB
 DevOps: Docker, Docker Compose
 Version Control: Git, GitHub
 Extras: Axios, React Router
-
-
-<hr>
 
 
 
@@ -44,7 +39,28 @@ Dockerized services for frontend, backend, and database.
 Prerequisites
 Ensure you have the following installed:
 
-Node.js
-Python 3.10+
-Docker
+Node.js, 
+Python 3.10+,
+Docker,
 MongoDB
+
+```bash
+git clone https://github.com/your-username/ToDo-App.git
+cd ToDo-App
+```
+now start your backend mongo connections
+<br>
+```bash
+cd backend
+python -m venv venv
+pip install -r requirements.txt
+uvicorn main:app --reload  
+```
+<br>
+Now opeb new terminal to run frontend server
+
+```bash
+cd frontend
+npm install
+npm start
+```
